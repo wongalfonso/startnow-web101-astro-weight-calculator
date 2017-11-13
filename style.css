@@ -1,0 +1,86 @@
+header {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.labels {
+    color: white;
+    font-weight: none;
+}
+
+body {
+    background: url("/images/Solar\ System\ Background.jpg") no-repeat center; 
+    height: 1000px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    
+    
+}
+
+#calculate-button {
+    border-radius: 8px;
+    position: absolute;
+    bottom: -57px;
+    right: 12px;
+
+}
+
+#output {
+    color: black;
+    background-color: lightgrey;
+    font-size: cover;
+    border-radius: 8px;
+    font-weight: bold;
+    border: solid 1px grey;
+    padding: 30px;
+    margin-top: 40px;
+    text-align: center;
+    height: 80px;
+
+}
+
+
+/********** Media Query **************/
+@media (min-width: 992px) {
+
+.checkbox {
+    position: relative;
+    bottom: -22px;
+    text-align: center;
+    }
+}
+
+@media (min-width: 1300px){
+    body {
+        background: url("/images/Solar\ System\ Background.jpg") no-repeat center; 
+        height: 1200px;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover; 
+    }
+}
+
+@media (max-width: 992px){
+    
+#output {
+    position: relative;
+    bottom: -60px;
+}
+
+#calculate-button {
+    position: relative;
+    right: 0;
+
+}
+body {
+    background: url("/images/Solar\ System\ Background.jpg") no-repeat center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+}

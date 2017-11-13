@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Astro Weight Calculator</title>
+</head>
+
+
+<body>
+  <header>
+    <h1 class="main-header">AstroWeight Calculator</h1>
+
+  </header>
+
+  <div class="container">
+    <div class="row">
+      <section>
+        <form class="myForm">
+
+
+          <!-- Weight -->
+          <div class="form-group">
+            <div class="col-lg-3 col-md-3">
+              <label for="user-weight" class="labels">Your weight</label>
+              <input class="form-control" id="user-weight" type="text" placeholder="Weight (lbs)">
+            </div>
+          </div>
+          <!-- DropDown -->
+          <div class="form-group">
+            <div class="col-lg-3 col-md-3">
+              <label for="planets" class="labels">Select a Planet</label>
+              <select class="form-control" id="planets">
+              </select>
+            </div>
+          </div>
+
+          <!-- checkbox -->
+          <div class="form-group">
+            <div class="checkbox">
+              <div class="col-xl-2 col-md-2">
+                <label for="check" class="labels">
+                  <input type="checkbox" id="check">
+                  <b>Check to remove Pluto</b>
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <!-- button -->
+          <div class="form-group">
+            <div class="col-md-4">
+              <div>
+                <button class="btn btn-primary form-control" onclick="handleClickEvent()" type="button" id="calculate-button">Calculate</button>
+              </div>
+            </div>
+          </div>
+          <!--form row-->
+          <!--output-->
+    </div>
+    <!--row -->
+
+    <div class="form-group row">
+      <div class="col-md-12 col-lg-12">
+        <p id="output"></p>
+      </div>
+    </div>
+
+    </form>
+    </section>
+
+  </div>
+  <!--container -->
+
+
+
+
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+  <script src="main.js" charset="utf-8"></script>
+</body>
+
+</html>
