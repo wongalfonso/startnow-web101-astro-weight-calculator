@@ -8,10 +8,12 @@ header {
     color: white;
     font-weight: none;
 }
-
+body, html {
+    height: 100%;
+}
 body {
     background: url("/images/Solar\ System\ Background.jpg") no-repeat center; 
-    height: 1000px;
+    height: 100vh;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
